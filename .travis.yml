@@ -25,9 +25,9 @@ install:
 script:
   - make travis-ci
 
-after_success: echo "Success"
+after_success: echo "Success2"
 
-after_failure: echo "Failure"
+after_failure: echo "Failure2"
 
 before_deploy:
   - nvm install 18
